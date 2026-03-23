@@ -102,33 +102,6 @@ td.mu { color: var(--hz); font-size: 12px; }
 .lb-es.on { background: var(--mg); border-color: var(--mg); color: #fff; }
 .sl-mg { color: var(--mg); border-bottom-color: rgba(252,0,131,.25); }
 .sl-lm { color: var(--lm); border-bottom-color: rgba(255,208,0,.35); }
-
-/* New sections */
-.intro-text { font-size: 13.5px; color: var(--dk); line-height: 1.7; }
-.intro-text + .intro-text { margin-top: 8px; }
-.team-col { }
-.team-role { font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--hz); margin-bottom: 8px; font-weight: 500; }
-.team-member { display: flex; justify-content: space-between; align-items: baseline; padding: 6px 0; border-bottom: 1px solid var(--ic); font-size: 13.5px; }
-.team-member:last-child { border-bottom: none; }
-.team-name { font-weight: 500; color: var(--dk); }
-.team-position { font-size: 12px; color: var(--hz); }
-.uniform-item { padding: 6px 0; border-bottom: 1px solid var(--ic); font-size: 13px; color: var(--dk); line-height: 1.5; }
-.uniform-item:last-child { border-bottom: none; }
-.uniform-item b { font-weight: 500; }
-
-/* PIN inline */
-.sl-clickable { cursor: pointer; user-select: none; }
-.sl-clickable::after { content: ' 🔒'; font-size: 11px; opacity: .5; }
-.sl-clickable.unlocked::after { content: ' 🔓'; opacity: .4; }
-.pin-inline { display: none; background: var(--wh); border-radius: 12px; padding: 20px; margin-bottom: 12px; text-align: center; }
-.pin-inline.visible { display: block; }
-.pin-dots { display: flex; justify-content: center; gap: 10px; margin-bottom: 16px; }
-.pin-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--ic); border: 1.5px solid var(--hz); transition: background .15s; }
-.pin-dot.filled { background: var(--tl); border-color: var(--tl); }
-.pin-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; max-width: 200px; margin: 0 auto; }
-.pin-btn { background: var(--ic); border: none; border-radius: 8px; font-family: var(--fb); font-size: 16px; font-weight: 500; color: var(--dk); padding: 12px; cursor: pointer; transition: background .1s; }
-.pin-btn:active { background: rgba(74,155,142,.2); }
-.pin-error { font-size: 11px; color: var(--mg); letter-spacing: .08em; margin-top: 10px; height: 14px; }
 </style>
 </head>
 <body>
@@ -151,12 +124,6 @@ td.mu { color: var(--hz); font-size: 12px; }
 
 <div class="bd">
 
-  <div class="sl" id="ov0" style="margin-top: 4px;">Overview</div>
-  <div class="card">
-    <p class="intro-text" id="ov1">A group visit from Edelweiss airline, following a corporate donation to the Somos Bar&uacute; Foundation. Also an opportunity to practice the combined operation of Agua Bar&uacute; between Mustique and Hart Hospitality.</p>
-    <p class="intro-text" id="ov2" style="margin-top:10px;">Mustique will lead the event, and the HH team will integrate into the standard Mustique operation, providing F&amp;B services.</p>
-  </div>
-
   <div class="sl" id="e2" style="margin-top: 4px;">Schedule</div>
   <div class="g2">
     <div class="card">
@@ -165,12 +132,12 @@ td.mu { color: var(--hz); font-size: 12px; }
         <div><div class="dnm" id="e3">Thursday</div><div class="ds" id="e4">March &middot; Agua Bar&uacute;</div></div>
       </div>
       <div class="er">
-        <div class="tm">13:30</div>
-        <div><div class="en" id="e5">Staff &amp; supplies transfer</div><div class="em" id="e6">Pedro, Esteban, Deimer, Antonio &middot; wines &amp; food &middot; <a href="https://maps.app.goo.gl/tENxchp6P3uAjPoc9" target="_blank" style="color:var(--tl);text-decoration:none;">Casa Don Sancho ↗</a></div></div>
+        <div class="tm">14:00</div>
+        <div><div class="en" id="e5">Staff &amp; supplies transfer</div><div class="em" id="e6">Chef, Bartender, Waiter, Sommelier &middot; wines &amp; food</div></div>
       </div>
       <div class="er">
         <div class="tm">16:00</div>
-        <div><div class="en" id="e80">Guests arrive at Agua Bar&uacute;</div><div class="em" id="e80b">Guests received in the Clubhouse with cold towel and Hibiscus water. Seating must be set up for 12 pax to wait comfortably for 30&ndash;60 mins.</div></div>
+        <div><div class="en" id="e80">Guests arrive at Agua Bar&uacute;</div></div>
       </div>
       <div class="er">
         <div class="tm">17:00</div>
@@ -178,17 +145,7 @@ td.mu { color: var(--hz); font-size: 12px; }
       </div>
       <div class="er">
         <div class="tm">18:00</div>
-        <div>
-          <div class="en" id="e7">Return to Clubhouse</div>
-          <div class="em" id="e7a" style="margin-top:4px;">&#8226; 4 hotel guests shown immediately to their rooms by car with Jorge</div>
-          <div class="em" id="e7b">&#8226; 3 remaining guests taken to Origen restaurant immediately by car</div>
-          <div class="em" id="e7c">&#8226; Both cars return to collect all remaining guests for Origen</div>
-          <div class="em" id="e7d">&#8226; Antonio waits with guests in Clubhouse before going up with them</div>
-        </div>
-      </div>
-      <div class="er">
-        <div class="tm">18:15</div>
-        <div><div class="en" id="e8a">Cocktail Hour</div><div class="em" id="e8b">Cocktails and wines served by Esteban &amp; Deimer</div></div>
+        <div><div class="en" id="e7">Welcome drinks</div><div class="em" id="e8">Cocktails &amp; aperitivos</div></div>
       </div>
       <div class="er">
         <div class="tm">19:30</div>
@@ -210,19 +167,15 @@ td.mu { color: var(--hz); font-size: 12px; }
       </div>
       <div class="er">
         <div class="tm">10:00</div>
-        <div><div class="en" id="e15">Transfer to Cartagena</div><div class="em" id="e16">Pedro, Esteban &amp; Deimer</div></div>
-      </div>
-      <div class="er">
-        <div class="tm">11:00</div>
-        <div><div class="en" id="e11a">Antonio to Somos Bar&uacute;</div><div class="em" id="e11b">Food &amp; drinks for lunch service</div></div>
+        <div><div class="en" id="e15">Transfer to Cartagena</div><div class="em" id="e16">Chef, Bartender &amp; Sommelier</div></div>
       </div>
       <div class="er">
         <div class="tm">13:00</div>
-        <div><div class="en" id="e17">Cold lunch &mdash; village <span class="px">15 pax</span></div><div class="em" id="e18">Somos Bar&uacute; organises table set-up with 2 trainee waiters. Antonio lead waiter. Not picnic-style.</div></div>
+        <div><div class="en" id="e17">Cold lunch &mdash; village <span class="px">15 pax</span></div><div class="em" id="e18">Picnic-style &middot; served cold</div></div>
       </div>
       <div class="er">
         <div class="tm">14:00</div>
-        <div><div class="en" id="e19">Transfer to Cartagena</div><div class="em" id="e20">Antonio</div></div>
+        <div><div class="en" id="e19">Transfer to Cartagena</div><div class="em" id="e20">Waiter</div></div>
       </div>
       <div class="er">
         <div class="tm">15:00</div>
@@ -243,7 +196,7 @@ td.mu { color: var(--hz); font-size: 12px; }
   <div class="sl sl-lm" style="margin-top: 6px;" id="e25">Requirements from Mustique</div>
   <div class="card">
     <div class="sdv" id="e26">Thursday 19</div>
-    <div class="or"><div class="ob" id="e27"><b>14:00 transfer</b> to Agua Bar&uacute; &mdash; full team (Chef, Bartender, Waiter, Sommelier) with wines and food supplies</div></div>
+    <div class="or"><div class="ob" id="e27"><b>13:30 transfer</b> to Agua Bar&uacute; &mdash; Pedro, Esteban, Deimer &amp; Antonio with wines and food supplies</div></div>
     <div class="or"><div class="ob" id="e28"><b>Set-up support</b> for drinks and dinner service &mdash; HH team is unfamiliar with the property; please assist with location of tableware, linens, etc.</div></div>
     <div class="or"><div class="ob" id="e29"><b>2 kitchen assistants</b> for dinner (Thu), breakfast (Fri) and post-lunch clean-up (Fri)</div></div>
     <div class="or"><div class="ob" id="e30"><b>Ice on-site</b> for bar</div></div>
@@ -252,72 +205,14 @@ td.mu { color: var(--hz); font-size: 12px; }
     <div class="or"><div class="ob" id="e33"><b>Breakfast insumos</b> provided by Mustique</div></div>
     <div class="or"><div class="ob" id="e34"><b>2 service assistants</b> for lunch</div></div>
     <div class="or"><div class="ob" id="e36"><b>Logistical support:</b> transport lunch to the village, set-up assistance, and return of equipment</div></div>
-    <div class="or"><div class="ob" id="e37"><b>10:00 transfer to Cartagena</b> &mdash; Chef, Bartender &amp; Sommelier</div></div>
-    <div class="or"><div class="ob" id="e38"><b>14:00 transfer to Cartagena</b> &mdash; Waiter</div></div>
+    <div class="or"><div class="ob" id="e37"><b>10:00 transfer to Cartagena</b> &mdash; Pedro, Esteban &amp; Deimer</div></div>
+    <div class="or"><div class="ob" id="e38"><b>14:00 transfer to Cartagena</b> &mdash; Antonio</div></div>
     <div class="sdv" id="e_sdv_staff">Staff meals</div>
     <div class="or"><div class="ob" id="e_sm1"><b>Staff dinner (Thu):</b> 4 covers for HH team</div></div>
     <div class="or"><div class="ob" id="e_sm2"><b>Staff breakfast (Fri):</b> 4 covers for HH team</div></div>
     <div class="or"><div class="ob" id="e_sm3"><b>Staff lunch (Fri):</b> 1 cover for HH team</div></div>
 </div>
-  <div class="sl" id="tm0" style="margin-top: 6px;">Team</div>
-  <div class="card">
-    <div class="g2">
-      <div class="team-col">
-        <div class="team-role" id="tm1">Hart Hospitality</div>
-        <div class="team-member"><span class="team-name">Antonio</span><span class="team-position" id="tm_antonio">Servicio</span></div>
-        <div class="team-member"><span class="team-name">Deimer</span><span class="team-position">Sommelier</span></div>
-        <div class="team-member"><span class="team-name">Esteban</span><span class="team-position">Bartender</span></div>
-        <div class="team-member"><span class="team-name">Pedro</span><span class="team-position">Chef</span></div>
-      </div>
-      <div class="team-col">
-        <div class="team-role" id="tm2">Mustique</div>
-        <div class="team-member"><span class="team-name">Amparo</span><span class="team-position" id="tm_amparo">Directora</span></div>
-        <div class="team-member"><span class="team-name">Alexi</span><span class="team-position"></span></div>
-        <div class="team-member"><span class="team-name">Ginna</span><span class="team-position" id="tm_ginna">Contabilidad</span></div>
-        <div class="team-member"><span class="team-name">Joel</span><span class="team-position" id="tm_joel">Coordinaci&oacute;n Operacional</span></div>
-        <div class="team-member"><span class="team-name">Jorge</span><span class="team-position" id="tm_jorge">Concierge Biling&uuml;e</span></div>
-        <div class="team-member"><span class="team-name">Manuel</span><span class="team-position" id="tm_manuel">Conductor</span></div>
-        <div class="team-member"><span class="team-name">Mario</span><span class="team-position" id="tm_mario">Direcci&oacute;n Contable</span></div>
-        <div class="team-member"><span class="team-name">Rebeca</span><span class="team-position" id="tm_rebeca">Ventas</span></div>
-        <div class="team-member"><span class="team-name">Zully</span><span class="team-position" id="tm_zully">Coordinaci&oacute;n Log&iacute;stica</span></div>
-      </div>
-    </div>
-  </div>
-
-  <div class="sl" id="un0" style="margin-top: 6px;">HH Uniforms</div>
-  <div class="card">
-    <div class="uniform-item" id="un1"><b>Pedro (Chef)</b> &mdash; his choice</div>
-    <div class="uniform-item" id="un2"><b>Esteban, Deimer, Antonio</b> &mdash; Kolo shirt, white trousers, trainers</div>
-    <div class="uniform-item" id="un3"><b>Antonio (Friday)</b> &mdash; also requires white trousers or shorts. Mustique will lend him a polo shirt.</div>
-  </div>
-
-  <div class="sl" style="margin-top: 6px;" id="e39" class="sl-clickable" onclick="togglePin()">Budget</div>
-
-  <div class="pin-inline" id="pin-inline">
-    <div class="pin-dots">
-      <div class="pin-dot" id="d0"></div>
-      <div class="pin-dot" id="d1"></div>
-      <div class="pin-dot" id="d2"></div>
-      <div class="pin-dot" id="d3"></div>
-    </div>
-    <div class="pin-grid">
-      <button class="pin-btn" onclick="pinPress('1')">1</button>
-      <button class="pin-btn" onclick="pinPress('2')">2</button>
-      <button class="pin-btn" onclick="pinPress('3')">3</button>
-      <button class="pin-btn" onclick="pinPress('4')">4</button>
-      <button class="pin-btn" onclick="pinPress('5')">5</button>
-      <button class="pin-btn" onclick="pinPress('6')">6</button>
-      <button class="pin-btn" onclick="pinPress('7')">7</button>
-      <button class="pin-btn" onclick="pinPress('8')">8</button>
-      <button class="pin-btn" onclick="pinPress('9')">9</button>
-      <button class="pin-btn" onclick="pinBack()" style="font-size:13px;color:var(--hz);">⌫</button>
-      <button class="pin-btn" onclick="pinPress('0')">0</button>
-      <button class="pin-btn" onclick="pinReset()" style="font-size:10px;color:var(--hz);">CLR</button>
-    </div>
-    <div class="pin-error" id="pin-error"></div>
-  </div>
-
-  <div id="budget-content" style="display:none;">
+  <div class="sl sl-clickable" style="margin-top: 6px;" id="e39" onclick="togglePin()">Budget</div>
   <div class="card">
     <table>
       <thead>
@@ -350,7 +245,6 @@ td.mu { color: var(--hz); font-size: 12px; }
     </table>
     <div class="nt" id="e78">All food and drink figures are estimates. Breakfast, water, soft drinks and beer are not invoiced by HH &mdash; to be supplied by Mustique.</div>
   </div>
-  </div><!-- /budget-content -->
 
 </div>
 
@@ -361,23 +255,23 @@ var t = {
     e1: "Thu 19 &ndash; Fri 20 March 2026 &middot; Bar&uacute;",
     e2: "Schedule",
     e3: "Thursday", e4: "March &middot; Agua Bar&uacute;",
-    e5: "Staff &amp; supplies transfer", e6: "Pedro, Esteban, Deimer, Antonio &middot; wines &amp; food &middot; <a href='https://maps.app.goo.gl/tENxchp6P3uAjPoc9' target='_blank' style='color:var(--tl);text-decoration:none;'>Casa Don Sancho &#8599;</a>",
-    e7: "Return to Clubhouse", e8a: "Cocktail Hour", e8b: "Cocktails and wines served by Esteban &amp; Deimer",
+    e5: "Staff &amp; supplies transfer", e6: "Chef, Bartender, Waiter, Sommelier &middot; wines &amp; food",
+    e7: "Welcome drinks", e8: "Cocktails &amp; aperitivos",
     e9: "Dinner <span class='px'>11 pax</span>", e10: "Seated dinner &middot; Agua Bar&uacute;",
     e11: "Friday", e12: "March &middot; Somos Bar&uacute;",
     e13: "Breakfast <span class='px'>4 pax</span>", e14: "Mustique provides",
-    e80: "Guests arrive at Agua Bar&uacute;", e80b: "Guests received in the Clubhouse with cold towel and Hibiscus water. Seating must be set up for 12 pax to wait comfortably for 30&ndash;60 mins.",
+    e80: "Guests arrive at Agua Bar&uacute;",
     e82: "Mangrove Tour <span class='px'>11 pax &middot; 2 boats</span>", e83: "White Wine, Sparkling Wine, Beers, Softs &middot; 2 chillers with ice &middot; plastic glassware",
     e84: "Guests depart Agua Bar&uacute; by boat",
     e86: "Guests depart Somos Bar&uacute; for Cartagena by boat",
-    e15: "Transfer to Cartagena", e16: "Pedro, Esteban &amp; Deimer",
-    e17: "Lunch &mdash; village <span class='px'>15 pax</span>", e18: "Somos Bar&uacute; organises table set-up with 2 trainee waiters. Antonio lead waiter.",
-    e19: "Transfer to Cartagena", e20: "Antonio",
+    e15: "Transfer to Cartagena", e16: "Chef, Bartender &amp; Sommelier",
+    e17: "Cold lunch &mdash; village <span class='px'>15 pax</span>", e18: "Picnic-style &middot; served cold",
+    e19: "Transfer to Cartagena", e20: "Waiter",
     e21: "Dietary Requirements",
     e22: "1 &times; no avocado", e23: "1 &times; vegetarian", e24: "1 &times; shellfish allergy<br>(fish OK)",
     e25: "Requirements from Mustique",
     e26: "Thursday 19",
-    e27: "<b>14:00 transfer</b> to Agua Bar&uacute; &mdash; full team (Chef, Bartender, Waiter, Sommelier) with wines and food supplies",
+    e27: "<b>13:30 transfer</b> to Agua Bar&uacute; &mdash; Pedro, Esteban, Deimer &amp; Antonio with wines and food supplies",
     e28: "<b>Set-up support</b> for drinks and dinner service &mdash; HH team is unfamiliar with the property; please assist with location of tableware, linens, etc.",
     e29: "<b>2 kitchen assistants</b> for dinner (Thu), breakfast (Fri) and post-lunch clean-up (Fri)",
     e30: "<b>Ice on-site</b> for bar",
@@ -387,8 +281,8 @@ var t = {
     e34: "<b>2 service assistants</b> for lunch",
     e35: "<b>Picnic equipment</b> for village lunch service",
     e36: "<b>Logistical support:</b> transport lunch to the village, set-up assistance, and return of equipment",
-    e37: "<b>10:00 transfer to Cartagena</b> &mdash; Chef, Bartender &amp; Sommelier",
-    e38: "<b>14:00 transfer to Cartagena</b> &mdash; Waiter",
+    e37: "<b>10:00 transfer to Cartagena</b> &mdash; Pedro, Esteban &amp; Deimer",
+    e38: "<b>14:00 transfer to Cartagena</b> &mdash; Antonio",
     e39: "Budget &mdash; HH Invoice Estimate",
     e40: "Item", e41: "Detail", e42: "COP",
     e43: "Staff", e44: "Chef", e45: "Fee", e46: "Waiter", e47: "Fee",
@@ -405,47 +299,30 @@ var t = {
     e_sdv_staff: "Staff meals",
     e_sm1: "<b>Staff dinner (Thu):</b> 4 covers for HH team",
     e_sm2: "<b>Staff breakfast (Fri):</b> 4 covers for HH team",
-    e_sm3: "<b>Staff lunch (Fri):</b> 1 cover for HH team",
-    ov0: "Overview",
-    ov1: "A group visit from Edelweiss airline, following a corporate donation to the Somos Bar&uacute; Foundation. Also an opportunity to practise the combined operation of Agua Bar&uacute; between Mustique and Hart Hospitality.",
-    ov2: "Mustique will lead the event, and the HH team will integrate into the standard Mustique operation, providing F&amp;B services.",
-    e7a: "&#8226; 4 hotel guests shown immediately to their rooms by car with Jorge",
-    e7b: "&#8226; 3 remaining guests taken to Origen restaurant immediately by car",
-    e7c: "&#8226; Both cars return to collect all remaining guests for Origen",
-    e7d: "&#8226; Antonio waits with guests in the Clubhouse before going up with them",
-    e11a: "Antonio to Somos Bar&uacute;", e11b: "Food &amp; drinks for lunch service",
-    tm0: "Team", tm1: "Hart Hospitality", tm2: "Mustique",
-    tm_antonio: "Service",
-    tm_amparo: "Director", tm_ginna: "Accounting", tm_joel: "Operational Coordination",
-    tm_jorge: "Bilingual Concierge", tm_manuel: "Driver", tm_mario: "Financial Director",
-    tm_rebeca: "Sales", tm_zully: "Logistics Coordination",
-    un0: "HH Uniforms",
-    un1: "<b>Pedro (Chef)</b> &mdash; his choice",
-    un2: "<b>Esteban, Deimer, Antonio</b> &mdash; Kolo shirt, white trousers, trainers",
-    un3: "<b>Antonio (Friday)</b> &mdash; also requires white trousers or shorts. Mustique will lend him a polo shirt."
+    e_sm3: "<b>Staff lunch (Fri):</b> 1 cover for HH team"
   },
   es: {
     e0: "Hart Hospitality &middot; Brief del Evento",
     e1: "Jue 19 &ndash; Vie 20 de Marzo 2026 &middot; Bar&uacute;",
     e2: "Horario",
     e3: "Jueves", e4: "Marzo &middot; Agua Bar&uacute;",
-    e5: "Traslado de personal e insumos", e6: "Pedro, Esteban, Deimer, Antonio &middot; vinos y comida &middot; <a href='https://maps.app.goo.gl/tENxchp6P3uAjPoc9' target='_blank' style='color:var(--tl);text-decoration:none;'>Casa Don Sancho &#8599;</a>",
-    e7: "Regreso al Clubhouse", e8a: "Hora de C&oacute;cteles", e8b: "C&oacute;cteles y vinos servidos por Esteban &amp; Deimer",
+    e5: "Traslado de personal e insumos", e6: "Chef, Bartender, Mesero, Sommelier &middot; vinos y comida",
+    e7: "C&oacute;ctel de bienvenida", e8: "C&oacute;cteles y aperitivos",
     e9: "Cena <span class='px'>11 pax</span>", e10: "Cena sentada &middot; Agua Bar&uacute;",
     e11: "Viernes", e12: "Marzo &middot; Somos Bar&uacute;",
     e13: "Desayuno <span class='px'>4 pax</span>", e14: "Provee Mustique",
-    e80: "Hu&eacute;spedes llegan a Agua Bar&uacute;", e80b: "Hu&eacute;spedes recibidos en el Clubhouse con toalla fr&iacute;a y agua de Hibisco. El montaje debe permitir que 12 pax esperen c&oacute;modamente 30&ndash;60 min.",
+    e80: "Hu&eacute;spedes llegan a Agua Bar&uacute;",
     e82: "Tour de Manglar <span class='px'>11 pax &middot; 2 botes</span>", e83: "Vino Blanco, Espumoso, Cervezas, Bebidas &middot; 2 hieleras con hielo &middot; vasos pl&aacute;sticos",
     e84: "Hu&eacute;spedes salen de Agua Bar&uacute; en bote",
     e86: "Hu&eacute;spedes salen de Somos Bar&uacute; hacia Cartagena en bote",
-    e15: "Traslado a Cartagena", e16: "Pedro, Esteban y Deimer",
-    e17: "Almuerzo &mdash; pueblo <span class='px'>15 pax</span>", e18: "Somos Bar&uacute; organiza el montaje con 2 meseros aprendices. Antonio mesero l&iacute;der.",
-    e19: "Traslado a Cartagena", e20: "Antonio",
+    e15: "Traslado a Cartagena", e16: "Chef, Bartender y Sommelier",
+    e17: "Almuerzo fr&iacute;o &mdash; pueblo <span class='px'>15 pax</span>", e18: "Estilo picnic &middot; servicio fr&iacute;o",
+    e19: "Traslado a Cartagena", e20: "Mesero",
     e21: "Requisitos Alimentarios",
     e22: "1 &times; sin aguacate", e23: "1 &times; vegetariano/a", e24: "1 &times; alergia a mariscos<br>(pescado OK)",
     e25: "Requerimientos de Mustique",
     e26: "Jueves 19",
-    e27: "<b>Traslado 14:00</b> a Agua Bar&uacute; &mdash; equipo completo (Chef, Bartender, Mesero, Sommelier) con vinos e insumos",
+    e27: "<b>Traslado 13:30</b> a Agua Bar&uacute; &mdash; Pedro, Esteban, Deimer y Antonio con vinos e insumos",
     e28: "<b>Apoyo en montaje</b> para bebidas y cena &mdash; el equipo de HH no conoce la propiedad; se requiere orientaci&oacute;n sobre la ubicaci&oacute;n de vajilla, lencer&iacute;a, etc.",
     e29: "<b>2 asistentes de cocina</b> para la cena (jue), el desayuno (vie) y la limpieza post-almuerzo (vie)",
     e30: "<b>Hielo en la propiedad</b> para el bar",
@@ -455,8 +332,8 @@ var t = {
     e34: "<b>2 asistentes de servicio</b> para el almuerzo",
     e35: "<b>Equipo de picnic</b> para el servicio en el pueblo",
     e36: "<b>Apoyo log&iacute;stico:</b> llevar el almuerzo al pueblo, asistir con el montaje y devoluci&oacute;n del equipo",
-    e37: "<b>Traslado a Cartagena 10:00</b> &mdash; Chef, Bartender y Sommelier",
-    e38: "<b>Traslado a Cartagena 14:00</b> &mdash; Mesero",
+    e37: "<b>Traslado a Cartagena 10:00</b> &mdash; Pedro, Esteban y Deimer",
+    e38: "<b>Traslado a Cartagena 14:00</b> &mdash; Antonio",
     e39: "Presupuesto",
     e40: "Concepto", e41: "Detalle", e42: "COP",
     e43: "Personal", e44: "Chef", e45: "Tarifa", e46: "Mesero", e47: "Tarifa",
@@ -473,24 +350,7 @@ var t = {
     e_sdv_staff: "Comidas de personal",
     e_sm1: "<b>Cena de personal (jue):</b> 4 cubiertos para equipo HH",
     e_sm2: "<b>Desayuno de personal (vie):</b> 4 cubiertos para equipo HH",
-    e_sm3: "<b>Almuerzo de personal (vie):</b> 1 cubierto para equipo HH",
-    ov0: "Resumen",
-    ov1: "Una visita grupal de la aerol&iacute;nea Edelweiss, tras una donaci&oacute;n corporativa a la Fundaci&oacute;n Somos Bar&uacute;. Tambi&eacute;n una oportunidad para practicar la operaci&oacute;n conjunta de Agua Bar&uacute; entre Mustique y Hart Hospitality.",
-    ov2: "Mustique liderar&aacute; el evento, y el equipo de HH se integrar&aacute; a la operaci&oacute;n est&aacute;ndar de Mustique, brindando los servicios de A&amp;B.",
-    e7a: "&#8226; 4 hu&eacute;spedes del hotel son llevados inmediatamente a sus habitaciones en carro con Jorge",
-    e7b: "&#8226; 3 hu&eacute;spedes restantes son llevados inmediatamente al restaurante Origen en carro",
-    e7c: "&#8226; Ambos carros regresan al Clubhouse para recoger a todos los dem&aacute;s hu&eacute;spedes hacia Origen",
-    e7d: "&#8226; Antonio espera con los hu&eacute;spedes en el Clubhouse antes de subir con ellos",
-    e11a: "Antonio a Somos Bar&uacute;", e11b: "Comida y bebidas para el servicio de almuerzo",
-    tm0: "Equipo", tm1: "Hart Hospitality", tm2: "Mustique",
-    tm_antonio: "Servicio",
-    tm_amparo: "Directora", tm_ginna: "Contabilidad", tm_joel: "Coordinaci&oacute;n Operacional",
-    tm_jorge: "Concierge Biling&uuml;e", tm_manuel: "Conductor", tm_mario: "Direcci&oacute;n Contable",
-    tm_rebeca: "Ventas", tm_zully: "Coordinaci&oacute;n Log&iacute;stica",
-    un0: "Uniformes HH",
-    un1: "<b>Pedro (Chef)</b> &mdash; su elecci&oacute;n",
-    un2: "<b>Esteban, Deimer, Antonio</b> &mdash; camisa Kolo, pantal&oacute;n largo blanco, tenis",
-    un3: "<b>Antonio (viernes)</b> &mdash; requiere pantal&oacute;n o bermuda blanco adicional. Mustique le prestar&aacute; una camisa polo."
+    e_sm3: "<b>Almuerzo de personal (vie):</b> 1 cubierto para equipo HH"
   }
 };
 
@@ -503,42 +363,6 @@ function setLang(l) {
     if (el) el.innerHTML = d[k];
   }
 }
-
-var pinVal = '';
-var PIN = '3963';
-var pinUnlocked = false;
-function togglePin() {
-  if (pinUnlocked) return;
-  document.getElementById('pin-inline').classList.toggle('visible');
-}
-function pinPress(d) {
-  if (pinVal.length >= 4) return;
-  pinVal += d;
-  document.getElementById('d' + (pinVal.length - 1)).classList.add('filled');
-  document.getElementById('pin-error').textContent = '';
-  if (pinVal.length === 4) {
-    if (pinVal === PIN) {
-      pinUnlocked = true;
-      document.getElementById('pin-inline').classList.remove('visible');
-      document.getElementById('budget-content').style.display = 'block';
-      document.getElementById('e39').classList.add('unlocked');
-    } else {
-      document.getElementById('pin-error').textContent = 'Incorrect PIN — try again';
-      setTimeout(function() { pinReset(); }, 900);
-    }
-  }
-}
-function pinBack() {
-  if (pinVal.length === 0) return;
-  pinVal = pinVal.slice(0, -1);
-  document.getElementById('d' + pinVal.length).classList.remove('filled');
-}
-function pinReset() {
-  pinVal = '';
-  for (var i = 0; i < 4; i++) document.getElementById('d' + i).classList.remove('filled');
-  document.getElementById('pin-error').textContent = '';
-}
-
 </script>
 </body>
 </html>
