@@ -94,7 +94,7 @@ td.ctr { text-align: center; }
     <div class="meta-item"><div class="meta-label">Para</div><div class="meta-val">Olivier Dafur</div></div>
     <div class="meta-item"><div class="meta-label">Empresa</div><div class="meta-val">Nahbu DMC</div></div>
     <div class="meta-item"><div class="meta-label">Propiedad</div><div class="meta-val">Agua Bar&uacute;</div></div>
-    <div class="meta-item"><div class="meta-label">Personas</div><div class="meta-val">30</div></div>
+    <div class="meta-item"><div class="meta-label">Personas</div><div class="meta-val">35</div></div>
   </div>
 
   <div class="photo-grid">
@@ -118,51 +118,45 @@ td.ctr { text-align: center; }
         <tr>
           <td>Almuerzo 3 tiempos</td>
           <td class="mu">Entradas compartidas, parrilla/BBQ, postre</td>
-          <td class="ctr">30</td>
+          <td class="ctr">35</td>
           <td class="am">$200.000</td>
-          <td class="am" id="food-total">6.000.000</td>
-        </tr>
-        <tr class="cat"><td colspan="5">Bebidas <span style="font-size:10px;font-weight:400;color:var(--hz);letter-spacing:0;text-transform:none;">&mdash; ajuste las cantidades</span></td></tr>
-        <tr>
-          <td>Botella de vino</td><td class="mu"></td>
-          <td class="ctr"><div class="qty-wrap"><button class="qty-btn" onclick="adj('wine',-1)">&#8722;</button><span class="qty-num" id="wine-qty">0</span><button class="qty-btn" onclick="adj('wine',1)">+</button></div></td>
-          <td class="am">$250.000</td><td class="am" id="wine-total">&mdash;</td>
+          <td class="am" id="food-total">7.000.000</td>
         </tr>
         <tr>
-          <td>Copa de vino</td><td class="mu"></td>
-          <td class="ctr"><div class="qty-wrap"><button class="qty-btn" onclick="adj('glasswine',-1)">&#8722;</button><span class="qty-num" id="glasswine-qty">0</span><button class="qty-btn" onclick="adj('glasswine',1)">+</button></div></td>
-          <td class="am">$50.000</td><td class="am" id="glasswine-total">&mdash;</td>
+          <td>Almuerzo Gu&iacute;a / Piloto</td>
+          <td class="mu">Incluye bebida</td>
+          <td class="ctr">2</td>
+          <td class="am">$50.000</td>
+          <td class="am" id="guide-total">100.000</td>
         </tr>
+        <tr class="cat"><td colspan="5">Bebidas</td></tr>
         <tr>
-          <td>C&oacute;ctel</td><td class="mu"></td>
-          <td class="ctr"><div class="qty-wrap"><button class="qty-btn" onclick="adj('cocktail',-1)">&#8722;</button><span class="qty-num" id="cocktail-qty">0</span><button class="qty-btn" onclick="adj('cocktail',1)">+</button></div></td>
-          <td class="am">$50.000</td><td class="am" id="cocktail-total">&mdash;</td>
+          <td>Gaseosa / Jugo / Agua</td><td class="mu"></td>
+          <td class="ctr">70</td>
+          <td class="am">$15.000</td><td class="am" id="soft-total">1.050.000</td>
         </tr>
+        <tr class="cat"><td colspan="5">Otros</td></tr>
         <tr>
-          <td>Gaseosa / Jugo</td><td class="mu"></td>
-          <td class="ctr"><div class="qty-wrap"><button class="qty-btn" onclick="adj('soft',-1)">&#8722;</button><span class="qty-num" id="soft-qty">0</span><button class="qty-btn" onclick="adj('soft',1)">+</button></div></td>
-          <td class="am">$20.000</td><td class="am" id="soft-total">&mdash;</td>
+          <td>Show de Tambores y Baile Tradicional</td><td class="mu"></td>
+          <td class="ctr">1</td>
+          <td class="am">$2.000.000</td><td class="am" id="show-total">2.380.000</td>
         </tr>
-        <tr>
-          <td>Agua</td><td class="mu"></td>
-          <td class="ctr"><div class="qty-wrap"><button class="qty-btn" onclick="adj('water',-1)">&#8722;</button><span class="qty-num" id="water-qty">0</span><button class="qty-btn" onclick="adj('water',1)">+</button></div></td>
-          <td class="am">$10.000</td><td class="am" id="water-total">&mdash;</td>
-        </tr>
-        <tr class="tr"><td colspan="4">Total</td><td class="am" id="subtotal">6.000.000</td></tr>
-        <tr class="tax-row"><td colspan="4">IPC (8%) &mdash; incluido</td><td class="am" id="ipc-total">480.000</td></tr>
+        <tr class="tr"><td colspan="4">Total</td><td class="am" id="subtotal">10.530.000</td></tr>
+        <tr class="tax-row"><td colspan="4">IPC (8%) &mdash; incluido</td><td class="am" id="ipc-total">652.000</td></tr>
+        <tr class="tax-row"><td colspan="4">IVA (19%) &mdash; incluido</td><td class="am" id="iva-total">380.000</td></tr>
         <tr class="prop-row">
-          <td colspan="4"><span style="font-weight:500;">Propina sugerida (10%)</span></td>
-          <td class="am" id="prop-total">600.000</td>
+          <td colspan="4"><span style="font-weight:500;">Propina Sugerida (10% de A&amp;B)</span></td>
+          <td class="am" id="prop-total">815.000</td>
         </tr>
         <tr class="tr-total">
           <td colspan="4">Total</td>
-          <td class="am" id="grand-total">$6.600.000</td>
+          <td class="am" id="grand-total">$11.345.000</td>
         </tr>
       </tbody>
     </table>
   </div>
 
-  <div class="sl sl-mg" style="margin-top:4px;">Sample Menu</div>
+  <div class="sl sl-mg" style="margin-top:4px;">MENU CONFIRMADO</div>
   <div class="card">
     <div class="g2">
       <div>
@@ -197,35 +191,11 @@ td.ctr { text-align: center; }
       <p>Se requiere un dep&oacute;sito del 20% para confirmar la reserva de la fecha.</p>
       <p>Esta cotizaci&oacute;n tiene una validez de 7 d&iacute;as a partir de la fecha de emisi&oacute;n y no constituye una reserva confirmada ni un contrato.</p>
       <p>Los requisitos alimentarios deben comunicarse con anticipaci&oacute;n.</p>
-      <p>Las bebidas pueden pedirse el d&iacute;a del evento y facturarse despu&eacute;s, o liquidarse en el lugar.</p>
+      <p><strong>Alergia:</strong> Un miembro del grupo es al&eacute;rgico a los mariscos &mdash; ning&uacute;n plato o preparaci&oacute;n puede contener mariscos.</p>
+      <p><strong>Grupo Morm&oacute;n:</strong> El grupo no consume alcohol, caf&eacute; ni bebidas calientes. No ofrecer ninguna de estas bebidas en ning&uacute;n momento del evento.</p>
     </div>
   </div>
 </div>
-<script>
-var prices={wine:250000,glasswine:50000,cocktail:50000,soft:20000,water:10000};
-var qtys={wine:0,glasswine:0,cocktail:0,soft:0,water:0};
-var food=6000000;
-function fmt(n){return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g,'.');}
-function fmtTotal(n){return '$'+n.toString().replace(/\B(?=(\d{3})+(?!\d))/g,'.');}
-function adj(k,d){
-  qtys[k]=Math.max(0,qtys[k]+d);
-  document.getElementById(k+'-qty').textContent=qtys[k];
-  var l=qtys[k]*prices[k];
-  document.getElementById(k+'-total').innerHTML=l===0?'&mdash;':fmt(l);
-  recalc();
-}
-function recalc(){
-  var drinks=0;
-  for(var k in qtys) drinks+=qtys[k]*prices[k];
-  var sub=food+drinks;
-  var ipc=Math.round(sub*0.08);
-  var prop=Math.round(sub*0.10);
-  var total=sub+prop;
-  document.getElementById('subtotal').innerHTML=fmt(sub);
-  document.getElementById('ipc-total').innerHTML=fmt(ipc);
-  document.getElementById('prop-total').innerHTML=fmt(prop);
-  document.getElementById('grand-total').innerHTML=fmtTotal(total);
-}
-</script>
+
 </body>
 </html>
